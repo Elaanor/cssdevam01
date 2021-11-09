@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        background-color: #cae8ca;
+        border: 2px solid #4CAF50;
+}
         div.relative{
             position: relative;
             width: 400px;
@@ -25,11 +33,18 @@
 </head>
 <body>
     <h2>Relative position</h2>
-   
+    <p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>
     <p>Lorem ipsum dolor sit amet.</p>
     <div class="relative">
         Relative örnek
         <div class="absolute">Absolute örnek</div>
     </div>
+    <div class="sticky">I am sticky!</div>
+    <div style="padding-bottom:2000px">
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quaerat excepturi provident quos obcaecati. Animi corporis consequatur cum quibusdam temporibus veritatis maiores aliquid? Dolores rem soluta reprehenderit similique deserunt suscipit?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quaerat excepturi provident quos obcaecati. Animi corporis consequatur cum quibusdam temporibus veritatis maiores aliquid? Dolores rem soluta reprehenderit similique deserunt suscipit?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quaerat excepturi provident quos obcaecati. Animi corporis consequatur cum quibusdam temporibus veritatis maiores aliquid? Dolores rem soluta reprehenderit similique deserunt suscipit?</p>
+</div>
 </body>
 </html>
